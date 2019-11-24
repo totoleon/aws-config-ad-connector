@@ -1,0 +1,25 @@
+{
+    "typeName": "MyCompany::ActiveDirectory::User",
+    "description": "Users in ActiveDirectory",
+    "properties": {
+        "SAMAccountName": {
+            "type": "string"
+        },
+        "Name": {
+            "type": "string"
+        },
+        "PwdLastSet": {
+            "type": "string"
+        },
+        "userAccountControl": {
+            "type": "string"
+        }
+    },
+    "primaryIdentifier": [
+        "/properties/SAMAccountName"
+    ],
+    "required": [
+        "SAMAccountName"
+    ],
+    "additionalProperties": false
+}

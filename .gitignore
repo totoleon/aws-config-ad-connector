@@ -1,0 +1,6 @@
+*.DS_Store
+*.venv
+*.idea
+*.build
+*cdk.out
+env.sh

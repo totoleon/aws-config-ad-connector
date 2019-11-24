@@ -1,0 +1,5 @@
+# Packages that will be built as Lambda layer
+# To make sure the Lambda function has the latest boto3 runtime, we also install boto3 to the Lambda Layer
+ldap3==2.6.1
+boto3
+

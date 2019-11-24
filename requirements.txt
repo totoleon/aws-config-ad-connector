@@ -1,0 +1,9 @@
+# TODO: Make this right with GA package version
+
+ldap3==2.6.1
+boto3
+
+aws-cdk.aws-events
+aws-cdk.aws-events-targets
+aws-cdk.aws-lambda
+aws-cdk.core

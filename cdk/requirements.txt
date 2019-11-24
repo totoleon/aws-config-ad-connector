@@ -1,0 +1,7 @@
+# Packages required by CDK app
+
+aws-cdk.aws-events
+aws-cdk.aws-events-targets
+aws-cdk.aws-lambda
+aws-cdk.core
+aws-cdk.aws_config
